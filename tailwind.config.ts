@@ -10,7 +10,7 @@ const config: Config = {
    theme: {
       extend: {
          backgroundImage: {
-            sea5: "url(./asset/img-05.png)",
+            sea5: "url(./asset/img-05.jpg)",
             bg7: "url(./asset/img-07.jpg)",
             bg1: "url(./asset/img-01.jpg)",
             team1: "url(./asset/team-01.jpg)",
