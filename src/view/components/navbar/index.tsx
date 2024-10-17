@@ -22,7 +22,7 @@ export const navbarLink = [
 
 export default function Navbar() {
    return (
-      <header className="">
+      <header>
          <div className="w-full justify-end items-end flex bg-white/40 backdrop-blur-2xl absolute">
             <nav>
                <div className="absolute left-[12rem] -bottom-[1.5rem]">
