@@ -22,8 +22,8 @@ export const navbarLink = [
 
 export default function Navbar() {
    return (
-      <header className="relative h-[4rem] w-full bg-white/20 backdrop-blur-lg">
-         <div className="flex flex-col w-full items-end  bg-white/5 backdrop-blur-lg justify-center">
+      <header className="">
+         <div className="w-full justify-end items-end flex bg-white/40 backdrop-blur-2xl absolute">
             <nav>
                <div className="absolute left-[12rem] -bottom-[1.5rem]">
                   <Image src="/logo.png" alt="logo" width={120} height={50} />
