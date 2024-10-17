@@ -1,6 +1,7 @@
 "use client";
 import { fadeIn } from "../../variant/variants";
 import { motion } from "framer-motion";
+import Adver from "@/contentful/adver/adver";
 export default function AboutUSez() {
    return (
       <div className=" w-full min-h-screen bg-black flex flex-col items-center justify-center text-white    ">
@@ -38,6 +39,7 @@ export default function AboutUSez() {
                work together to create a style that makes you feel confident!
             </motion.div>
          </div>
+         <Adver />
       </div>
    );
 }
