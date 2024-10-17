@@ -4,7 +4,7 @@ import { ButtonWhite } from "../../background/button/button-white";
 export default function Hero() {
    const forSlide = ["FOR", "GENTELEMEN", "ON THE GO"];
    return (
-      <div className=" min-h-screen  flex justify-start items-center pl-[18em]  bg-sea5 bg-fixed  bg-[right_top_-14rem]   bg-[length:65rem] bg-no-repeat ">
+      <div className=" min-h-screen  flex justify-start items-center pl-[18em]  bg-sea5 bg-fixed  bg-cover bg-no-repeat ">
          <motion.div
             className="max-w-2xl overflow-hidden "
             initial={{ opacity: 0, scale: 0.2 }}
