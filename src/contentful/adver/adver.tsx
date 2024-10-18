@@ -17,9 +17,7 @@ export default async function Adver() {
          {advers &&
             advers.items?.map((e, i) => (
                <div key={i}>
-                  <p className="text-lg text-blue-600">
-                     {e.fields.advertisement}
-                  </p>
+                  <p>{e.fields.advertisement}</p>
                </div>
             ))}
       </div>
