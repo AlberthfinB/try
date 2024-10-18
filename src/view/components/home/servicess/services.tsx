@@ -8,13 +8,13 @@ const cardService = [
    {
       pic: <HairCut />,
       children:
-         "We are ready to provide a haircut that suits your desires! With professional staff and years of experience, we guarantee you will leave here with increased confidence.",
+         "We are ready to provide a haircut that suits your desires! With professional staff and years of experience, we guarantee you will leave here with increased confidence",
       sec: "Haircut",
    },
    {
       pic: <Shaves />,
       children:
-         "Enjoy a stylish and modern haircut experience. Our barber team is ready to provide a style that suits your personality.",
+         "Enjoy a stylish and modern haircut experience. Our expert barber team is ready to provide a style that perfectly suits your personality and enhances your confidence",
       sec: "Shaves",
    },
    {
@@ -26,7 +26,7 @@ const cardService = [
    {
       pic: <WebDevelopment />,
       children:
-         "Neat and Stylish with the Perfect Beard, Enhance your appearance with our professional beard trimming services. We will ensure your beard looks tidy, well-groomed, and tailored to your style",
+         "Neat and Stylish with the Perfect Beard, Enhance your appearance with our professional beard trimming services. We will ensure your beard looks tidy, well-groomed",
       sec: "Beard Trim",
    },
 ];

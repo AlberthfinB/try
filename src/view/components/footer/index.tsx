@@ -26,11 +26,11 @@ export default function FooterX() {
             <Paralex />
          </div>
          <footer>
-            <div className="text-black space-x-8 text-lg px-40 ">
+            <div className="text-black text-lg font-bold pl-[11rem] ">
                <div className="absolute left-[9rem] bottom-[2.5rem]">
                   <Image src="/logo.png" alt="logo" width={150} height={50} />
                </div>
-               <div className="flex flex-col pr-[10rem]">
+               <div className="flex flex-col pr-[10rem] ">
                   {footerLink.map((e, i) => (
                      <NavbarToLink key={i} to={e.to} parag={e.parag} />
                   ))}
