@@ -29,7 +29,7 @@ export function Card(props: ICard) {
             <h1>{sec}</h1>
          </section>
          <p className="text-center">{children}</p>
-         <ButtonNavigate label="Go To page" targetPage="/service" />
+         <ButtonNavigate label="Let's Start" targetPage="/service" />
       </motion.div>
    );
 }
